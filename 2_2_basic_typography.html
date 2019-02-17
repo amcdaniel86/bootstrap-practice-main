@@ -84,6 +84,7 @@
     <hr>
   </header>
 
+  <!-- bootstrap basically provides a bunch of classes that alter the look of a page, without having to come up with them myself, efficient but have to learn all of the classes -->
   <div class="container">
     <!--####################START HERE######################-->
 
@@ -92,7 +93,7 @@
     <h2>Heading Two</h2>
     <h3>Heading Three</h3>
     <h4>Heading Four</h4>
-    <h5>Heading Five</h5>
+    <h5 class="h1">Heading Five</h5> <!--use html sizes as classes, will adjust the html tags-->
     <h6>Heading Six</h6>
 
     <br>
@@ -100,10 +101,11 @@
 
 
     <!-- DISPLAY CLASSES -->
-    <h1>Display 1</h1>
-    <h1>Display 2</h1>
-    <h1>Display 3</h1>
-    <h1>Display 4</h1>
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+    <!-- display classe make font thinner weight, makes much bigger, nice for showcases -->
 
     <br>
     <br>
@@ -112,41 +114,41 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam
       voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
 
-    <!-- LEAD -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam
+    <!-- LEAD  --> <!-- thin weight text, slightly bigger 1.25 rem -->
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam
       voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
 
     <!-- MONOSPACE PARAGRAPH -->
-    <p>My monospace paragraph</p>
+    <p class="text-monospace">My monospace paragraph</p>
 
     <!-- STYLE CLASSES -->
-    <p>Bold Text</p>
-    <p>Normal Text</p>
-    <p>Italic Text</p>
+    <p class="font-weight-bold">Bold Text</p>
+    <p class="font-weight-normal">Normal Text</p>
+    <p class="font-italic">Italic Text</p>
 
     <!-- TEXT TRANSFORMS -->
-    <p>MAKE LOWERCASE</p>
-    <p>make uppercase</p>
-    <p>make capitalized</p>
+    <p class="text-lowercase">MAKE LOWERCASE</p>
+    <p class="text-uppercase">make uppercase</p>
+    <p class="text-capitalize">make capitalized</p> <!--very handy-->
 
     <br>
     <br>
 
     <!-- BLOCKQUOTES -->
-    <blockquote>
+    <blockquote class="blockquote"> <!-- little more prominent-->
       <p>This is a blockquote</p>
     </blockquote>
 
     <!-- BLOCKQUOTE RIGHT ALIGNED -->
-    <blockquote>
+    <blockquote class="blockquote text-right">
       <p>This is a blockquote aligned right</p>
     </blockquote>
 
     <!-- BLOCKQUOTE WITH FOOTER -->
-    <blockquote>
+    <blockquote class="blockquote text-right">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in
-        <cite title="Source Title">Source Title</cite>
+      <footer class="blockquote-footer">Someone famous in
+        <cite title="Source Title">Source Title</cite> <!-- quote styling-->
       </footer>
     </blockquote>
 
@@ -154,7 +156,7 @@
     <br>
 
     <!-- TEXT TRUNCATE -->
-    <div>
+    <div class="text-truncate">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellat nobis sunt qui consequatur architecto veritatis,
       iure odit, debitis pariatur perspiciatis? Asperiores facere veniam, totam ullam dignissimos voluptate atque! Eos, animi
       quos. Sint magni nulla provident et consequatur officia tempora!
@@ -164,7 +166,7 @@
     <br>
 
     <!-- LISTS -->
-    <ul>
+    <ul class="list-unstyled"> <!-- very helpful for nav bars possibly-->
       <li>Lorem ipsum dolor sit amet.</li>
       <li>Lorem ipsum dolor sit amet.</li>
       <li>Lorem ipsum dolor sit amet.</li>
@@ -172,10 +174,10 @@
     </ul>
 
     <!-- INLINE LIST -->
-    <ul>
-      <li>Lorem ipsum</li>
-      <li>Lorem ipsum </li>
-      <li>Lorem ipsum </li>
+    <ul class="list-inline"> <!-- very nice for nav bars, horiz and no bullet pts-->
+      <li class="list-inline-item">Lorem ipsum</li>
+      <li class="list-inline-item">Lorem ipsum </li>
+      <li class="list-inline-item">Lorem ipsum </li>
     </ul>
   </div>
 
